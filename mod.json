@@ -9,13 +9,13 @@
 			"version": "1.0.2",
 			"name": "AdditionalMiserySpawns",
 			"displayName": "Additional Misery Spawns",
-			"author": "BigFish",
+			"author": "",
 			"previousAuthors": "",
 			"released": "2024-07-01",
 			"updated": "2024-07-10",
 			"downloadURL": "https://github.com/B1gF1s4/TLD-AdditionalMiserySpawns/releases/download/v1.0.2/AdditionalMiserySpawns.dll",
 			"modURL": "https://github.com/B1gF1s4/TLD-AdditionalMiserySpawns",
-			"description": "Mod that adds more spawn locations in misery mode",
+			"description": "Adds more spawn locations in misery mode",
 			"tags": "Misery",
 			"categories": [
 				"Quality of Life",
@@ -30,7 +30,7 @@
 			"status": {
 				"working": true,
 				"beta": false,
-				"patchnotes": "",
+				"patchnotes": "https://github.com/B1gF1s4/TLD-AdditionalMiserySpawns/blob/main/Changelog.md",
 				"notes": "",
 				"issues": ""
 			},
@@ -39,8 +39,101 @@
 				"mlversion": "0.6.1"
 			},
 			"updater": {
-				"enable": false,
-				"downloads": []
+				"enable": true,
+				"downloads": [
+					"https://github.com/B1gF1s4/TLD-AdditionalMiserySpawns/releases/download/v1.0.2/AdditionalMiserySpawns.dll"
+				]
+			},
+			"aliases": []
+		},
+		{
+			"type": "mod",
+			"version": "PRE-RELEASE-0.7.0",
+			"name": "MiseryInCustomGames",
+			"displayName": "Misery in Custom Games",
+			"author": "",
+			"previousAuthors": "",
+			"released": "2024-07-10",
+			"updated": "2024-07-10",
+			"downloadURL": "https://github.com/B1gF1s4/TLD-MiseryInCustomGames/releases/download/PRE-RELEASE-0.7.0/MiseryInCustomGames.dll",
+			"modURL": "https://github.com/B1gF1s4/TLD-MiseryInCustomGames",
+			"description": "Adds custom setting to enable misery afflictions in any custom run. \nVanilla: regular misery timeline\nOnSpawn: start a run with all afflictions already applied ",
+			"tags": "Misery",
+			"categories": [
+				"Gameplay"
+			],
+			"gameversion": [
+				"vanilla",
+				"tftft"
+			],
+			"images": [],
+			"dependencies": [
+				"ModSettings",
+				"ModData"
+			],
+			"status": {
+				"working": true,
+				"beta": true,
+				"patchnotes": "https://github.com/B1gF1s4/TLD-MiseryInCustomGames/blob/main/Changelog.md",
+				"notes": "",
+				"issues": ""
+			},
+			"testedon": {
+				"tldversion": "2.31",
+				"mlversion": "0.6.1"
+			},
+			"updater": {
+				"enable": true,
+				"downloads": [
+					"https://github.com/B1gF1s4/TLD-MiseryInCustomGames/releases/download/PRE-RELEASE-0.7.0/MiseryInCustomGames.dll"
+				]
+			},
+			"aliases": []
+		},
+		{
+			"type": "mod",
+			"version": "PRE-RELEASE-0.4.0",
+			"name": "RecordingUtils",
+			"displayName": "Recording Utils",
+			"author": "",
+			"previousAuthors": "",
+			"released": "2024-07-10",
+			"updated": "2024-07-10",
+			"downloadURL": "https://github.com/B1gF1s4/TLD-RecordingUtils/releases/download/v0.4.0/RecordingUtils.dll",
+			"modURL": "https://github.com/B1gF1s4/TLD-RecordingUtils",
+			"description": "Adds some animal and camera control for recording purposes. \nAlso adds freebird implementation by @Digitalzombie ",
+			"tags": "",
+			"categories": [
+				"Quality of Life",
+				"Graphics",
+				"Utility Mod"
+			],
+			"gameversion": [
+				"vanilla",
+				"tftft"
+			],
+			"images": [],
+			"dependencies": [
+				"ModSettings",
+				"ModData",
+				"DeveloperConsole"
+			],
+			"status": {
+				"working": true,
+				"beta": true,
+				"patchnotes": "https://github.com/B1gF1s4/TLD-RecordingUtils/blob/main/Changelog.md",
+				"notes": "Commands:\n- animal_freeze\n  - toggles animation freeze in radius\n  - is affected by animal control radius\n- animal_wander\n  - makes all animals in radius wander to current cam position\n  - is affected by animal control radius in mod settings\n- cam_freebird\n  - toggles freebird cam on/off\n- cam_save\n  - saves current camera position and rotation\n  - is tied to scene. can only load a save while in same scene\n  - only works in freebird or flymode\n- cam_load\n  - loads last saved camera position and rotation\n  - is tied to scene. can only load a save while in same scene\n  - only works in freebird or flymode\n\nSettings:\n- animal control radius, key bindings\n- flymode slow, normal and fast speed\n- freebird cam settings",
+				"issues": ""
+			},
+			"testedon": {
+				"tldversion": "2.31",
+				"mlversion": ""
+			},
+			"updater": {
+				"enable": true,
+				"downloads": [
+					"https://github.com/B1gF1s4/TLD-RecordingUtils/releases/download/v0.4.0/RecordingUtils.dll"
+				]
 			},
 			"aliases": []
 		}
